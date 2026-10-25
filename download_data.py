@@ -3,9 +3,9 @@ Download daily prices and annual fundamentals for 8 large Danish companies
 and the OMXC25 index from Yahoo Finance, and save them as CSV files ready
 to import into PostgreSQL.
 
-Run on your Mac, in the folder that contains this file:
+Run in the project folder:
     pip3 install yfinance pandas
-    python3 scarica_dati.py
+    python3 download_data.py
 
 Output (folder "data"): companies.csv, prices.csv, fundamentals.csv
 """
